@@ -31,15 +31,15 @@ const ContactUs = () => {
                 <form noValidate className="space-y-6"  data-aos="fade-left" data-aos-delay="1200" data-aos-duration="1000">
                     <div>
                         <label htmlFor="name" className="text-sm">Full name</label>
-                        <input id="name" type="text" placeholder="" className="w-full p-3 bg-gray-200 rounded-2xl" />
+                        <input id="name" type="text" placeholder="" className="w-full p-3 bg-base-300 rounded-2xl" />
                     </div>
                     <div>
                         <label htmlFor="email" className="text-sm">Email</label>
-                        <input id="email" type="email" className="w-full p-3 bg-gray-200 rounded-2xl" />
+                        <input id="email" type="email" className="w-full p-3 bg-base-300 rounded-2xl" />
                     </div>
                     <div>
                         <label htmlFor="message" className="text-sm">Message</label>
-                        <textarea id="message" rows="3" className="w-full p-3 bg-gray-200 rounded-2xl"></textarea>
+                        <textarea id="message" rows="3" className="w-full p-3 bg-base-300 rounded-2xl"></textarea>
                     </div>
                     <button onClick={notify} type="submit" className="w-full rounded-full p-3 px-5 text-sm font-bold uppercase bg-violet-400 hover:bg-violet-600 text-gray-100 transition-all text-center">Send Message</button>
                 </form>
