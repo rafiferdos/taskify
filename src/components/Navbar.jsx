@@ -4,7 +4,6 @@ import { IoPersonAddOutline } from "react-icons/io5";
 import { useContext, useEffect } from "react";
 import { AuthContext } from "../FirebaseProvider/FirebaseProvider";
 
-
 const Navbar = () => {
 
     const { user, logout } = useContext(AuthContext)
