@@ -24,7 +24,7 @@ const Navbar = () => {
     const links =
         <>
             <NavLink to='/' className={({ isActive }) => isActive ? "text-purple-500 lg:border-b-purple-500 lg:border-b-2" : "hover:text-purple-300"}><a>Home</a></NavLink>
-            <NavLink to='/dashboard' className={({ isActive }) => isActive ? "text-purple-500 lg:border-b-purple-500 lg:border-b-2" : "hover:text-purple-300"}><a>Dashboard</a></NavLink>
+            {/* <NavLink to='/dashboard' className={({ isActive }) => isActive ? "text-purple-500 lg:border-b-purple-500 lg:border-b-2" : "hover:text-purple-300"}><a>Dashboard</a></NavLink> */}
             <NavLink to='/features' className={({ isActive }) => isActive ? "text-purple-500 lg:border-b-purple-500 lg:border-b-2" : "hover:text-purple-300"}><a>Features</a></NavLink>
             <NavLink to='/contactus' className={({ isActive }) => isActive ? "text-purple-500 lg:border-b-purple-500 lg:border-b-2" : "hover:text-purple-300"}><a>Contact Us</a></NavLink>
         </>
@@ -66,7 +66,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
                                 <ul tabIndex={0} className="mt-3 z-[100] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
-                                    <Link to='/my_art_and_craft_list' className="pl-3 py-1.5 rounded-lg btn-ghost" ><a>My Art & Craft List</a></Link>
+                                    <Link to='/add_note' className="pl-3 py-1.5 rounded-lg btn-ghost" ><a>Add a Note</a></Link>
                                     <li onClick={logout}><a>Logout</a></li>
                                 </ul>
                             </div>
